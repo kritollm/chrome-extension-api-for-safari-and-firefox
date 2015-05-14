@@ -1,6 +1,7 @@
 # Chrome extension API for Safari and Firefox
 
-With these two API's you can make Chrome extensions and use the same code and manifest in Safari and Firefox. If you have more than one '*' in your urls in the manifest Firefox or Safari (I don't remember) fails.
+With these two API's you can make Chrome extensions and use the same code and manifest in Safari and Firefox.
+If you have more than one '*' in your urls in the manifest Firefox or Safari (I don't remember) fails.
 
 The manifest parser for Firefox is the same as main.js.
 
@@ -43,7 +44,8 @@ If you have only used Chrome Api's defined in the ChromeAPIForSafari.js, it shou
 
 Firefox:
 
-I used the cfx init, but I see that tool is deprecated. But I think you can do jpm init, choose the chromeApiForSafari/chromeManifestSimulatorFirefox.js as your entry point. Make a data drawer, then copy all your files (js drawer, html, img..) into the data drawer.
+I used the cfx init, but I see that tool is deprecated. But I think you can do jpm init, choose the chromeApiForSafari/chromeManifestSimulatorFirefox.js as your entry point. Make a data drawer,
+then copy all your files (js drawer, html, img..) into the data drawer.
 
 If you inject css with fonts you need to use dataURL instead.
 If you have only used Chrome Api's defined in the ChromeAPIForFirefox.js, it should work.
