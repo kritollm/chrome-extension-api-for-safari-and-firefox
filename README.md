@@ -22,7 +22,7 @@ Safari:
 	</dict>
 ```
 	
-- Copy the chromeAPISafari drawer, your js drawer and the manifest.json to your Safari extension.
+- Copy the chromeAPISafari directory, your js directory and the manifest.json to your Safari extension.
 
 - Add the chromeAPISafari to extensionName.html, it should look like this:
 
@@ -46,7 +46,7 @@ Firefox:
 
 I used the cfx init, but I see that tool is deprecated. But I think you can do jpm init,
 choose the chromeApiForSafari/chromeManifestSimulatorFirefox.js as your entry point.
-Make a data drawer, then copy all your files (js drawer, html, img..) into the data drawer.
+Make a data directory, then copy all your files (js directory, html, img..) into the data directory.
 
 If you inject css with fonts you need to use dataURL instead.
 If you have only used Chrome Api's defined in the ChromeAPIForFirefox.js, it should work.
