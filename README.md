@@ -26,6 +26,7 @@ Safari:
 
 - Add the chromeAPISafari to extensionName.html, it should look like this:
 
+```
 <!DOCTYPE html>
 <html>
 <head>
@@ -36,6 +37,7 @@ Safari:
 </head>
 <body>Hello World!</body>
 </html>
+```
 
 If you inject css with fonts you need to use .ttf instead of .wof
 If you have only used Chrome Api's defined in the ChromeAPIForSafari.js, it should work.
