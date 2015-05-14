@@ -1,4 +1,4 @@
-# Chrome extension API for safari and firefox
+# Chrome extension API for Safari and Firefox
 
 With these two API's you can make Chrome extensions and use the same code and manifest in Safari and Firefox. If you have more than one '*' in your urls in the manifest firefox fails.
 
