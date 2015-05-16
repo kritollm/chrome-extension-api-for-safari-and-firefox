@@ -53,7 +53,7 @@ If you have only used Chrome Api's defined in the ChromeAPIForFirefox.js, it sho
 
 Things I want to add:
 
-- chrome.browserAction    It should be possible to parse popup informastion from manifest.json.
+- chrome.browserAction    It should be possible to parse popup information from manifest.json.
   https://developer.mozilla.org/en-US/Add-ons/SDK/High-Level_APIs/panel#Attaching_panels_to_buttons
  https://developer.apple.com/library/safari/documentation/Tools/Conceptual/SafariExtensionGuide/AddingPopovers/AddingPopovers.html
 
