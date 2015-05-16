@@ -51,5 +51,12 @@ Make a data directory, then copy all your files (js directory, html, img..) into
 If you inject css with fonts you need to use dataURL instead.
 If you have only used Chrome Api's defined in the ChromeAPIForFirefox.js, it should work.
 
+Things I want to add:
+
+- chrome.browserAction    It should be possible to parse popup informastion from manifest.json.
+  https://developer.mozilla.org/en-US/Add-ons/SDK/High-Level_APIs/panel#Attaching_panels_to_buttons
+ https://developer.apple.com/library/safari/documentation/Tools/Conceptual/SafariExtensionGuide/AddingPopovers/AddingPopovers.html
+
+- Grunt/Gulp task for bulding Safari And Firefox extension and a Yeoman generator :)
 
 I will include a sample later.
