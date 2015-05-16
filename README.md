@@ -44,6 +44,8 @@ If you have only used Chrome Api's defined in the ChromeAPIForSafari.js, it shou
 
 Firefox:
 
+ChromeApiForFirefox have a hack to follow a tab which is moved between windows. I found no better solution, and the solution does not work in FirefoxDeveloperEdition where you eventually lose the tab reference. For some strange reason, tab id change when moving tab to another window.
+
 I used the cfx init, but I see that tool is deprecated. But I think you can do jpm init,
 choose the chromeApiForSafari/chromeManifestSimulatorFirefox.js as your entry point.
 Make a data directory, then copy all your files (js directory, html, img..) into the data directory.
