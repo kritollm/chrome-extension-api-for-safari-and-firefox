@@ -57,6 +57,6 @@ Things I want to add:
   https://developer.mozilla.org/en-US/Add-ons/SDK/High-Level_APIs/panel#Attaching_panels_to_buttons
  https://developer.apple.com/library/safari/documentation/Tools/Conceptual/SafariExtensionGuide/AddingPopovers/AddingPopovers.html
 
-- Grunt/Gulp task for bulding Safari And Firefox extension and a Yeoman generator :)
+- Grunt/Gulp task for building Safari And Firefox extension and a Yeoman generator :)
 
 I will include a sample later.
